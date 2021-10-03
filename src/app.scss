@@ -1,0 +1,17 @@
+.logo{
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+}
+.siteLayout .siteLayoutBackground {
+    color: #fff;
+}
+:global{
+    .flex{
+        display: flex;
+    }
+    .allFlex{
+        @extend .flex;
+        width:300px;
+    }
+}
